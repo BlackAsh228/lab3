@@ -1,0 +1,179 @@
+/* HEADER */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(3, 120, 111);
+}
+body{
+    margin: 0;
+}
+#navigation{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#navigation li{
+    float:left;
+    
+}
+#navigation li a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px;
+    line-height:90px;
+    color: white;
+    font-size: x-large;
+}
+#navigation li a:hover{
+    background-color: rgb(88, 88, 88);
+}
+
+
+
+/* PAGE */
+#page{
+    width: 100%;
+    border-top: 40px solid rgb(226, 216, 216);
+    padding:0;
+}
+
+
+
+/* LEFTBAR */
+#leftbar{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    width: 19%;
+    margin:0 1%;
+    float: left;   
+}
+#leftbar li{
+    margin: 10px 0;
+    text-align: justify;
+    line-break: strict;
+    font-size: small;
+}
+    #leftbar li h2{
+        margin: 0;
+}
+
+
+/* ARTICLE */
+article{
+    width: 64%;
+    float:left;
+    margin-right: 1%;
+}
+article img{
+    width:100%;
+    height:auto;
+    margin: 10px 0;
+}
+article p{
+    text-align: justify;
+    line-break: strict;
+    margin: 10px 0;
+}
+article h1{
+    margin: 10px 0;
+}
+
+
+/* RIGHTBAR */
+#rightbar{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    width: 13%;
+    margin-right: 1%;
+    float: left; 
+}
+#rightbar li img{
+    width: 100%;
+}
+#rightbar li{
+    margin: 10px 0;
+    text-align: justify;
+    line-break: strict;
+    font-size: small;
+}
+#rightbar li h2{
+    margin:0;
+}
+
+
+
+/* FOOTER */
+footer{
+    clear: both;
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(3, 120, 111);
+    border-top: 40px solid rgb(226, 216, 216) ;
+    border-bottom: 30px solid rgb(226, 216, 216) ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+#main-ul{
+    /* display: flex; */
+    list-style-type: none;
+    margin:0%;
+    padding: 0%;
+    width: 100%;
+    height: 90%;
+}
+#main-ul li{
+    margin: 0%;
+    padding: 0%;
+
+}
+/* LEFT */
+.left{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+    padding: 1%;
+    margin-right: 2%;
+    float: left;
+    width: 20%;
+}
+.left li{
+    text-align: center;
+    font-size:  small;
+    
+}
+/* CENTRE */
+.centre{
+    list-style-type: none;
+    background-color: rgb(235, 235, 235);
+    padding: 1%;
+    margin: 0 2%;
+    float: left;
+    width: 20%;
+}
+.centre li{
+    text-align: center;
+    font-size:  small;  
+}
+/* RIGHT */
+.right{
+    list-style-type: none;
+    background-color: rgb(235, 235, 235);
+    padding: 1%;
+    margin-left: 2%;
+    float: left;
+    width: 20%;
+}
+
+.right li{
+    text-align: center;
+    font-size: small;   
+}
+#contact{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    color: white;
+}

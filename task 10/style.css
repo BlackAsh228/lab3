@@ -1,0 +1,45 @@
+body{
+    margin: 0%;
+}
+.space{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    background:url("bg.jpg");
+}
+.object{
+    position: absolute;
+}
+#supmen{
+    bottom: 0;
+    right:35px;
+}
+#ast{
+    top:85px;
+    right:105px;
+}
+#pl1{
+    top:25px;
+    left: 180px;
+    z-index: 1;
+}
+#pl2{
+    top:70px;
+    left:60px;
+    z-index: 2;
+}
+#pl3{
+    bottom:19px;
+    left: 142px;
+    z-index: 4;
+}
+#rocket{
+    left: 150px;
+    top: 145px;
+    z-index:3;
+}
+#ufo{
+    bottom: 60px;
+    left: 122px;
+    z-index: 5;
+}

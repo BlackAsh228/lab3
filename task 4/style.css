@@ -1,0 +1,33 @@
+body{
+margin: 0%;    
+}
+#page{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}   
+#header{
+    margin-top: -10%;
+    position:fixed;
+    width: 100%;
+    padding: 1.5%;
+    border-bottom: 2px solid rgb(227, 229, 184);
+    background-color: rgb(153, 153, 204);
+}
+#header h1{
+    color: white;
+    text-align: center;
+    margin: 0%;
+    font-size: 1.5em;
+    height: 10%;
+}
+#content{
+    width: 65%;
+    margin-top:10%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    border: 1px solid rgb(131, 107, 236);
+    padding: 1.5% 4%;
+    font-size: smaller;
+}
